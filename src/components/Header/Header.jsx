@@ -20,7 +20,7 @@ function Header() {
         </ul>
       </nav>
       <a href="tel:+7 555 555-55-55" className={styles.phoneNumber}>+7 555 555-55-55</ a>
-      <nav class={styles.menu}>
+      <nav className={styles.menu}>
         <ul className={styles.list}>
           <li><a className={styles.link} href="!#"><img src={telegram} alt="telegram icon"/></a></li>
           <li><a className={styles.link} href="!#"><img src={viber} alt="viber icon"/></a></li>

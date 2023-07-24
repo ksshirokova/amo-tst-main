@@ -35,7 +35,7 @@ function Footer() {
       <div className={styles.contacts}>
         <h3 className={styles.lastHeader}>Контакты</h3>
         <a href="tel:+7 555 555-55-55" className={styles.phoneNumber}>+7 555 555-55-55</ a>
-        <nav class={styles.icons}>
+        <nav className={styles.icons}>
           <ul className={styles.iconsList}>
             <li><a className={styles.link} href="!#"><img src={telegram} alt="telegram icon" /></a></li>
             <li><a className={styles.link} href="!#"><img src={viber} alt="viber icon" /></a></li>
