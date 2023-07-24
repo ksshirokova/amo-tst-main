@@ -1,0 +1,18 @@
+.app {
+  background-image: url('../../images/background.svg');
+  width: 1440px;
+  height: 980px;
+  background-repeat: no-repeat;
+  padding: 46px 150px 20px 150px;
+  box-sizing: border-box;
+}
+@media (max-width:320px) {
+  .app {
+    background-image: url('../../images/background-320.svg');
+    background-color: #0E1014;
+    padding: 20px 16px;
+    width: 320px;
+    height: 100%;
+    background-position: 0px 55px;
+  }
+}

@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  margin: 0 0 94px;
+}
+
+.logoText {
+  color: #E4E5EA;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 165px;
+  margin: 14px 27px 0 0;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #E4E5EA;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+li:hover {
+  opacity: 0.7;
+}
+
+.phoneNumber {
+  color: #E4E5EA;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 47px 0 137px;
+  text-decoration: none;
+}
+
+@media (max-width:320px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width:320px) {
+  .phoneNumber {
+    display: none;
+  }
+}
+
+@media (max-width:320px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width:320px) {
+  .lastLink {
+    display: none;
+  }
+}
+
+@media (max-width:320px) {
+  .list {
+    gap: 16px;
+  }
+}
+
+@media (max-width:320px) {
+  .link {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+@media (max-width:320px) {
+  .container {
+    margin: 0 0 60px;
+
+  }
+}

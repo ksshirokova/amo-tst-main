@@ -1,0 +1,173 @@
+.container {
+  max-width: 301px;
+  margin: 11px 0 0;
+}
+
+.header {
+  color: #E4E5EA;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 40px;
+}
+
+.spanHeader {
+  background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.presentsText {
+  color: #E4E5EA;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 135px;
+  margin-right: 31px;
+}
+
+.presentsText:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.presentsSpan {
+  text-transform: uppercase;
+  color: #E4E5EA;
+  justify-content: flex-end;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  margin: 0 0 6px;
+  display: flex;
+
+}
+
+.presents {
+  display: flex;
+  max-width: 301px;
+  flex-wrap: wrap;
+  margin: 0 0 61px;
+}
+
+.button {
+  width: 262px;
+  height: 61px;
+  background: #4077F3;
+  color: #E4E5EA;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  float: right;
+
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:320px) {
+  .header {
+    text-transform: initial;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+@media (max-width:320px) {
+  .spanHeader {
+    text-transform: initial;
+
+  }
+}
+
+@media (max-width:320px) {
+  .container {
+    margin: 45px 0 0;
+
+  }
+}
+
+@media (max-width:320px) {
+  .presents {
+    display: none;
+
+  }
+}
+
+@media (max-width:320px) {
+  .button {
+    display: none;
+
+  }
+}
+
+@media (max-width:320px) {
+  .presentsSpan {
+    margin: 0;
+
+  }
+}
+
+@media (min-width:1440px) {
+  .presents320 {
+    display: none;
+
+  }
+}
+
+.dash {
+  width: 10px;
+  height: 1px;
+  background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+  margin-right: 5px;
+}
+
+@media (max-width:320px) {
+  .presents320 {
+    display: block;
+   display: flex;
+
+  }
+}
+
+@media (max-width:320px) {
+  .presentsSpan {
+    font-size: 13px;
+    letter-spacing: 0.65px;
+    justify-content: flex-start;
+    
+  }
+  
+}
+
+.presentElement {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 14px;
+  
+}
+
+.firstColumn{
+  margin-right: 10px;
+}

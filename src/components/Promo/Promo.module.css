@@ -1,0 +1,54 @@
+.text {
+  max-width: 362px;
+  margin: 0;
+}
+
+.main {
+  color: #E4E5EA;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.span {
+  background: linear-gradient(to right, #FCB045 30%, #FF3F78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.description {
+  color: #E4E5EA;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px 0 0;
+}
+
+@media (max-width:320px) {
+  .main {
+    font-size: 36px;
+    text-transform: initial;
+
+  }
+}
+@media (max-width:320px) {
+  .span {
+    font-size: 36px;
+  }
+}
+@media (max-width:320px) {
+  .description {
+    text-transform: initial;
+    margin: 15px 0 0;
+  }
+}
